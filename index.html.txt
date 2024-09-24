@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantina da Massa Delivery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ffcccb;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .banner {
+            background-color: #b3d9ff;
+            padding: 50px;
+            text-align: center;
+        }
+        .banner h2 {
+            font-size: 2em;
+            margin: 0;
+            color: #333;
+        }
+        .contact {
+            background-color: #fff;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .menu {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .menu img {
+            width: 250px;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cantina da Massa Delivery</h1>
+        <p>Melhor macarrão delivery que você já comeu!</p>
+    </header>
+    <div class="banner">
+        <h2>Peça já pelo WhatsApp: (62) 99453-1132 ou no iFood!</h2>
+    </div>
+    <div class="container">
+        <section class="contact">
+            <h3>Contatos</h3>
+            <p>Telefone/WhatsApp: (62) 99453-1132</p>
+            <p>Também estamos no iFood! Procure por Cantina da Massa Delivery e faça seu pedido.</p>
+        </section>
+
+        <section class="menu">
+            <h2>Nosso Menu</h2>
+            <img src="https://example.com/spaghetti.jpg" alt="Espaguete com molho vermelho">
+            <img src="https://example.com/penne.jpg" alt="Penne com molho branco">
+            <img src="https://example.com/talharim.jpg" alt="Talharim à bolonhesa">
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Cantina da Massa Delivery - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
